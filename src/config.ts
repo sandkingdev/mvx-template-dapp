@@ -1,3 +1,5 @@
+import { EnvironmentsEnum } from 'types';
+
 // Generate your own WalletConnect 2 ProjectId here: https://cloud.walletconnect.com/app
 export const walletConnectV2ProjectId = '9b1a9564f91cb659ffe21b73d5c4e2d8';
 export const apiTimeout = 6000;
@@ -21,3 +23,11 @@ export const BATCH_TRANSACTIONS_SC = {
     data: 'ESDTTransfer@4D45582D613635396430@0de0b6b3a7640000@6c6f636b546f6b656e73@05a0'
   }
 };
+
+export const contractAddress =
+  'erd1qqqqqqqqqqqqqpgqm6ad6xrsjvxlcdcffqe8w58trpec09ug9l5qde96pq';
+export const API_URL = 'https://devnet-template-api.multiversx.com';
+export const sampleAuthenticatedDomains = [API_URL];
+export const environment = EnvironmentsEnum.devnet;
+export const metamaskSnapWalletAddress =
+  'https://devnet-snap-wallet.multiversx.com';

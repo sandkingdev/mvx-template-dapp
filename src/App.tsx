@@ -17,7 +17,7 @@ import {
   environment,
   sampleAuthenticatedDomains,
   metamaskSnapWalletAddress
-} from 'config';
+} from './config';
 import { RouteNamesEnum } from 'localConstants';
 import { PageNotFound, Unlock } from 'pages';
 import { routes } from 'routes';
